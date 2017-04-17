@@ -1,0 +1,5 @@
+DirectoryIndex index.html
+Options -Indexes
+
+RewriteEngine On
+RewriteRule ^(get)/abcd\.(html) /project/index.html [L,NC]
