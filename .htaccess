@@ -2,4 +2,4 @@ DirectoryIndex index.html
 Options -Indexes
 
 RewriteEngine On
-RewriteRule ^(get)/abcd\.(html) /project/index.html [L,NC]
+RewriteRule ^(get)/([A-Za-z]+)\.json stockservice.php?company=$2   [L,NC]
